@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>歡迎來到園遊會點餐</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 3rem;
+      font-size: 1.8rem;
+      background: #fefefe;
+    }
+    .button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>歡迎來到園遊會點餐頁</h1>
+  <p>請先閱讀以下購買流程，然後點擊下方按鈕進入點餐頁面。</p>
+  <p>購買流程如下：</p>
+  <ul style="text-align: left; display: inline-block;">
+    <li>1. 點選餐點並送出訂單</li>
+    <li>2. 前往攤位前方櫃檯結帳</li>
+    <li>3. 結帳後至攤位側方領取餐點</li>
+  </ul>
+
+  <button class="button" onclick="window.location.href='https://script.google.com/macros/s/AKfycbzEq8V5Fk8ZLa2LrSAFrk4FcgivfXhdqcXnE7Iq0fTcGQGMbEv73SP3SgbHaku8INyWIg/exec'">
+    進入點餐頁面
+  </button>
+</body>
+</html>
